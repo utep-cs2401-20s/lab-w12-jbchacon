@@ -19,6 +19,7 @@ public class myBinarySearchTreeNode {
         }
     }
 
+    
     public void insert(int inValue){
         // This method takes a new integer as input and decides
         // if it should be place:
