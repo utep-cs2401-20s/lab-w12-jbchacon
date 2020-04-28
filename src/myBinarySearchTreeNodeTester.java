@@ -51,7 +51,7 @@ size test checks the size of the tree using the size method
         int[] expected = {1,2,3,4,5,6};
         myBinarySearchTreeNode test = new myBinarySearchTreeNode(input);
         test.insert(4);
-        assertArrayEquals(expected,input);
+        Assert.assertArrayEquals(expected,input);
     }
     /*
     Tests the insert method and inserts a number
